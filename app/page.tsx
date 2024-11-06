@@ -29,7 +29,9 @@ export default async function Home() {
   );
 }
 
-function CheckCircleIcon(props: any) {
+import { SVGProps } from "react";
+
+function CheckCircleIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

@@ -31,7 +31,9 @@ export default function AddTodo() {
   );
 }
 
-function PlusIcon(props: any) {
+import { SVGProps } from "react";
+
+function PlusIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
